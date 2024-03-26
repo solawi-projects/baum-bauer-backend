@@ -11,7 +11,7 @@ export const allUserFieldValidator = [
     .trim()
     .notEmpty()
     .withMessage("FirstName and LastName should not be empty..!")
-    .isLength({ min: 3, max: 18 })
+    .isLength({ min: 3, max: 20 })
     .withMessage(
       "The length of FirsName and LastName should be between 3 and 20"
     )
